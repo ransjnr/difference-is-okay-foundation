@@ -31,7 +31,86 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<style>
 
+.container_staff {
+     max-width: 1340px;
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.staff_main {
+     background-color: #fff;
+     padding-top: 90px;
+}
+
+.staff_main .titlepage span {
+     font-family: 'Raleway', sans-serif;
+}
+
+.staff {
+     text-align: center;
+}
+
+.man {
+     background-color: #fff;
+     box-shadow: 0 0 250px rgba(3, 3, 3, 0.15);
+     margin: 0 25px;
+     padding-top: 50px !important;
+     padding: 0px 15px;
+}
+
+.social_icon_main {
+     background-color: #fe9901;
+     border-radius: 5px;
+     padding: 20px;
+}
+
+.social_icon_main h4 {
+     color: #fff;
+     font-size: 20px;
+     line-height: 20px;
+     font-weight: bold;
+     padding-bottom: 15px;
+}
+
+ul.social_icon_staff li {
+     display: inline-block;
+}
+
+ul.social_icon_staff li a {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     font-size: 22px;
+     border-radius: 30px;
+     margin: 0 1px;
+     color: #fe9901;
+     background: #fff;
+     width: 40px;
+     height: 40px;
+}
+
+ul.social_icon_staff li a:hover {
+     color: #fff;
+     background: #1b1b1a;
+}
+
+.staff_main .read_more {
+     margin: 0 auto;
+     display: block;
+     margin-top: 60px;
+}
+
+
+/** end staff section **/
+
+
+</style>
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -60,21 +139,12 @@
                     <small class="fa fa-phone-alt text-success me-2"></small>
                     <small>+233 50 874 9039</small>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square rounded-circle bg-white text-success me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square rounded-circle bg-white text-success me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square rounded-circle bg-white text-success me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square rounded-circle bg-white text-success me-0" href=""><i class="fab fa-instagram"></i></a>
-                </div>
             </div>
         </div>
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h1 class="m-0 text-success"><i class="far fa-hospital me-3"></i></h1>
-        </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -83,16 +153,6 @@
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                        <a href="feature.html" class="dropdown-item">Feature</a>
-                        <a href="team.html" class="dropdown-item">Our Doctor</a>
-                        <a href="appointment.html" class="dropdown-item">Appointment</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
     </nav>
     <!-- Navbar End -->
@@ -154,12 +214,12 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <p class="d-inline-block border rounded-pill py-1 px-4">Difference Is Okay Foundation</p>
-                    <h1 class="mb-4 typewriter">Why You Should Trust Us? Get Know About Us!</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
-                    <p><i class="far fa-check-circle text-success me-3"></i>Quality health care</p>
-                    <p><i class="far fa-check-circle text-success me-3"></i>Only Qualified Doctors</p>
-                    <p><i class="far fa-check-circle text-success me-3"></i>Medical Research Professionals</p>
+                    <h1 class="mb-4 typewriter">Welcome!</h1>
+                    <p>Welcome to Difference Is Okay Foundation, where we believe in the power of inclusivity and the beauty found in diversity. </p>
+                    <p class="mb-4">Our foundation is dedicated to pioneering assistive technologies that bridge gaps and empower individuals of all abilities. With a passion for equality, innovation, and accessibility, we strive to create a world where differences are celebrated, not barriers. Join us on this journey of breaking down limitations and unlocking the extraordinary potential within every unique individual. Together, let's build a future where everyone can thrive, regardless of their abilities. Because at Difference Is Okay Foundation, we know that true strength lies in our differences.</p>
+                    <p><i class="far fa-check-circle text-success me-3"></i>Adaptive Tech Solutions</p>
+                    <p><i class="far fa-check-circle text-success me-3"></i>Community Empowerment Workshops</p>
+                    <p><i class="far fa-check-circle text-success me-3"></i>Socio-economic wellbeing</p>
                     <a class="btn btn-success rounded-pill py-3 px-5 mt-3" href="">Read More</a>
                 </div>
             </div>
@@ -177,7 +237,7 @@
                             <img class="img-fluid w-100" src="img/portfolio-1.jpeg" alt="" style="height: 30vh;">
                         </div>
                         <div class="portfolio-text bg-success">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Able Tech</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -195,7 +255,7 @@
                             <img class="img-fluid w-100" src="img/portfolio-2.jpeg" alt="" style="height: 30vh;">
                         </div>
                         <div class="portfolio-text bg-success">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Access Nova</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -213,7 +273,7 @@
                             <img class="img-fluid w-100" src="img/portfolio-3.jpeg" alt="" style="height: 30vh;">
                         </div>
                         <div class="portfolio-text bg-success">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">ATMOS (Assistive Technology Mobility Solutions)</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -231,7 +291,7 @@
                             <img class="img-fluid w-100" src="img/portfolio-4.jpeg" alt="" style="height: 30vh;">
                         </div>
                         <div class="portfolio-text bg-success">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Enadapt</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -249,30 +309,12 @@
                             <img class="img-fluid w-100" src="img/portfolio-5.jpeg" alt="" style="height: 30vh;">
                         </div>
                         <div class="portfolio-text bg-success">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Omnia</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
                                 <a class="btn btn-sm btn-secondary m-1" href="img/portfolio-5.jpeg" data-lightbox="portfolio">
-                                    <i class="fa fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
-                    <div class="position-relative overflow-hidden">
-                        <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="" style="height: 30vh;">
-                        </div>
-                        <div class="portfolio-text bg-success">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn btn-sm btn-secondary m-1" href="">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="img/portfolio-6.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
                             </div>
@@ -366,7 +408,7 @@
                     <div class="p-lg-5 ps-lg-0">
                         <p class="d-inline-block border rounded-pill text-light py-1 px-4">Features</p>
                         <h1 class="text-white mb-4">Why Choose Us</h1>
-                        <p class="text-white mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p class="text-white mb-4 pb-2">Difference Is Okay Foundation stands at the forefront of innovation, developing cutting-edge assistive technologies that redefine the possibilities for individuals of all abilities. Choose us for solutions that are not just advanced, but empathetically designed.</p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
@@ -375,7 +417,7 @@
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-white mb-2">Experience</p>
-                                        <h5 class="text-white mb-0">Doctors</h5>
+                                        <h5 class="text-white mb-0">Seasoned</h5>
                                     </div>
                                 </div>
                             </div>
@@ -386,7 +428,7 @@
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-white mb-2">Quality</p>
-                                        <h5 class="text-white mb-0">Services</h5>
+                                        <h5 class="text-white mb-0">Uncompromising</h5>
                                     </div>
                                 </div>
                             </div>
@@ -408,7 +450,7 @@
                                     </div>
                                     <div class="ms-4">
                                         <p class="text-white mb-2">24 Hours</p>
-                                        <h5 class="text-white mb-0">Support</h5>
+                                        <h5 class="text-white mb-0">Reliability</h5>
                                     </div>
                                 </div>
                             </div>
@@ -427,201 +469,64 @@
 
 
     <!-- Team Start -->
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-end mb-4">
-                <div class="col-lg-6">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Meet Our Team</h6>
-                    <h1 class="section-title mb-3">Meet Our Highly Experienced Cleaners</h1>
-                </div>
-                <div class="col-lg-6">
-                    <h4 class="font-weight-normal text-muted mb-3">Eirmod kasd duo eos et magna, diam dolore stet sea clita sit ea erat lorem. Ipsum eos ipsum magna lorem stet</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="owl-carousel team-carousel position-relative">
-                        <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                            <div class="position-relative">
-                                <div class="team-img">
-                                    <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                                </div>
-                                <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-primary text-center py-4">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <p class="text-white m-0">Designation</p>
-                            </div>
-                        </div>
-                        <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                            <div class="position-relative">
-                                <div class="team-img">
-                                    <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                                </div>
-                                <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-primary text-center py-4">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <p class="text-white m-0">Designation</p>
-                            </div>
-                        </div>
-                        <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                            <div class="position-relative">
-                                <div class="team-img">
-                                    <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                                </div>
-                                <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-primary text-center py-4">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <p class="text-white m-0">Designation</p>
-                            </div>
-                        </div>
-                        <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                            <div class="position-relative">
-                                <div class="team-img">
-                                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                                </div>
-                                <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-primary text-center py-4">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <p class="text-white m-0">Designation</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-    <!-- Team End -->
-
-
-    <!-- Appointment Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="d-inline-block border rounded-pill py-1 px-4">Appointment</p>
-                    <h1 class="mb-4">Make An Appointment To Visit Our Doctor</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="bg-light rounded d-flex align-items-center p-5 mb-4">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
-                            <i class="fa fa-phone-alt text-success"></i>
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">The mastermind</p>
+                <h1>Meet the Founder/CEO</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/ceo.jpg" alt="">
                         </div>
-                        <div class="ms-4">
-                            <p class="mb-2">Call Us Now</p>
-                            <h5 class="mb-0">+012 345 6789</h5>
-                        </div>
-                    </div>
-                    <div class="bg-light rounded d-flex align-items-center p-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
-                            <i class="fa fa-envelope-open text-success"></i>
-                        </div>
-                        <div class="ms-4">
-                            <p class="mb-2">Mail Us Now</p>
-                            <h5 class="mb-0">info@example.com</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="bg-light rounded h-100 d-flex align-items-center p-5">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
-                                        <option selected>Choose Doctor</option>
-                                        <option value="1">Doctor 1</option>
-                                        <option value="2">Doctor 2</option>
-                                        <option value="3">Doctor 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control border-0 datetimepicker-input"
-                                            placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control border-0 datetimepicker-input"
-                                            placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" rows="5" placeholder="Describe your problem"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-success w-100 py-3" type="submit">Book Appointment</button>
-                                </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Attah Amoah Prince</h5>
+                            <p class="text-success">Assistive Technologist and Global Health Advocate</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/attah_princex/"><i class="fab fa-instagram"></i></a>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Appointment End -->
+    <!-- Team End -->
+        
+
     <!-- Testimonial Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="d-inline-block border rounded-pill py-1 px-4">Testimonial</p>
-                <h1>What Say Our Patients!</h1>
+                <h1>Unlocking Potential, Embracing Differences: Where Technology Meets Equality!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/selorm.jpeg" style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Patient Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <p>The Difference Is Okay Foundation is a leader in improving lives through assistive technologies. We're proud to support their mission.</p>
+                        <h5 class="mb-1">Selorm Promise Abedu</h5>
+                        <span class="fst-italic">Biomedical Engineer, University of Rochester</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/steph.JPG" style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Patient Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <p>This organization makes an invaluable impact by empowering individuals with disabilities. We're honored to collaborate with them.</p>
+                        <h5 class="mb-1">Stephen Gyau Adjei</h5>
+                        <span class="fst-italic">Operations Manager, BUILD SCITECH</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/kabs.jpeg" style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Patient Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <p>The team at Difference Is Okay guided me to devices that were life-changing. They are true advocates and partners.</p>
+                        <h5 class="mb-1">Emmanuel Mbroh Buabeng</h5>
+                        <span class="fst-italic">CEO, The EduAbility Foundation</span>
                     </div>
                 </div>
             </div>
@@ -634,38 +539,10 @@
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Address</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="">Cardiology</a>
-                    <a class="btn btn-link" href="">Pulmonary</a>
-                    <a class="btn btn-link" href="">Neurology</a>
-                    <a class="btn btn-link" href="">Orthopedics</a>
-                    <a class="btn btn-link" href="">Laboratory</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
+            <div class="row g-5 justify-content-center">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Trust in our seasoned expertise to navigate the complexities and deliver solutions that make a meaningful impact.</p>
                     <div class="position-relative mx-auto" style="max-width: 300px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-success py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -677,11 +554,11 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">Difference is okay foundation</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        Designed By <a class="border-bottom" href="">faradTech</a>
                     </div>
                 </div>
             </div>
